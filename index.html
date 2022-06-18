@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+        integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body background="bg.png">
+
+    <!-- <nav>
+        <label class="logo"><img class="img-responsive2" src="logo.png"></label>
+        <label class="checkbtn"><button class="w3-btn w3-white w3-border w3-round-large">Login</button></label>
+        <Ul>
+            <Li><a href="#">Join a Race</a></Li>
+            <Li><a href="#">Leaderboard</a></Li>
+        </Ul>
+    </nav> -->
+
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="logo.png" height: 58px width: 141px></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-8"></div>
+
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-auto">
+                        <li class="nav-item ms-2">
+                            <a class="nav-link text-dark fw-bold " aria-current="page" href="#">Just A Home</a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link text-dark fw-bold" href="#">Leaderboard</a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link text-dark fw-bold active" href="#">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-0"></div>
+
+
+        </div>
+    </nav>
+
+
+    <form>
+        <h1 class="fw-bold">Password Reset</h1>
+        <label class="fw-bold" for="password">NEW PASSWORD</label>
+        <br><br>
+        <input type="password" id="password">
+
+        <label class="fw-bold" for="cnfrm-password">RE-ENTER NEW PASSWORD</label>
+        <br><br>
+        <input type="password" id="cnfrm-password">
+        <p id="message"></p>
+        <input type="button" onclick="checkPassword()" value="SUBMIT" />
+    </form>
+
+
+
+
+
+
+    <!-- <span class="bg"></span> -->
+
+    <footer class="sticky-footer">
+        <div class="row">
+            <div class="col-2 spa"></div>
+            <div class="col-2 spa"><a href="#">About Us</a></div>
+            <div class="col-2 spa"><a href="#">Privacy Policy</a></div>
+            <div class="col-2 spa"><a href="#">Tutorials </a></div>
+            <div class="col-2 spa"><a href="#">Term of Service</a></div>
+
+            <div class="col-1 spa"></div>
+            <div class="col-1 spa"></div>
+        </div>
+
+        <!-- <ul>
+            <li></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Tutorials </a></li>
+            <li><a href="#">Term of Service</a></li>
+        </ul> -->
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
