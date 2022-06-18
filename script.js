@@ -21,7 +21,7 @@ function checkPassword() {
                 message.textContent = "not contain digits";
             }
             else {
-                message.textContent = "Yes the password match";
+//             message.textContent = "Yes the password match";
                 window.open('file.html', '_self');
                 //    message.style.backgroundColor = "#1dcd59";
             }
